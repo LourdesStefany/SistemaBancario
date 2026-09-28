@@ -1,18 +1,13 @@
-## Getting Started
+SISTEMA BANCARIO 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é um sistema de gerenciamento de conta bancária básica desenvolvido em Java para consolidar conceitos de Programação Orientada a Objetos (POO).
 
-## Folder Structure
+🛠️ FUNCIONALIDADES:
+Criação de conta com saldo inicial.
+Depósito com verificação de valores positivos.
+Saque com validação de saldo disponível.
+Leitura de dados via console com Scanner.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🚀 CONCEITOS ULTILIZADOS:
+Encapsulamento: Atributos titular e saldo definidos como private e acessados via getters e métodos de operação.
+Entrada de Dados: Uso do java.util.Scanner para interatividade.
